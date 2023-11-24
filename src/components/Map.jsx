@@ -3,7 +3,7 @@ import styles from './Map.module.css';
 import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { useCities } from '../contexts/CitiesContext';
-import { useGeolocation } from '../hooks/useGeoLocation';
+import { useGeolocation } from '../hooks/useGeolocation';
 import { useUrlPosition } from '../hooks/useURLPosition';
 import {
   MapContainer,
